@@ -1,0 +1,2 @@
+pyinstaller --onefile --windowed --name="YouTubeDownloader" --icon=icon.ico --add-data "ffmpeg.exe;." --add-data "icon.ico;." --hidden-import=mutagen --hidden-import=websockets --hidden-import=brotli YouTubeDownloader.py
+pause
